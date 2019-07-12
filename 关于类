@@ -1,0 +1,9 @@
+# 类的划分
+
+一下都是我自己理解的类的划分
+##1.不带指针的类 （class without pointer）
+
+
+##2.带指针的类  （class with pointer）
+
+有一些人说 C++就是带类的C语言（C with class）,然后我特意去查过，有一个问题因为我的注意就是 怎么样才能避免写C++代码携程C with class,其中轮子哥的
