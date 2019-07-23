@@ -50,3 +50,4 @@ const T& min (const T& a,const T& b)
 }
 ```
 
+模板是C++中实现泛型编程的一种模式
