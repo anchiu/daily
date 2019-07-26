@@ -7,7 +7,15 @@ int main(int argc, char** argv) {
 	int val = 0;
 	while (std::cin >> currenVal)
 	{
-		if 	
+		if ()
+		{
+		
+		}	
+	
+		else 
+		{
+			
+		}
 	} 
 	return 0;
 }
