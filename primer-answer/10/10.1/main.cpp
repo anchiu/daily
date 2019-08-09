@@ -1,3 +1,11 @@
+/*
+	Name: prac10.1
+	Copyright: 
+	Author: Terry
+	Date: 09/08/19 15:28
+	Description: 熟悉头文件中algotithm定义的count函数 
+*/
+
 #include<iostream>
 #include<string>
 #include<vector>
@@ -11,6 +19,5 @@ int main(int argc, char**argv)
 	vector<int> vec(a,a+10);
 	int value = 5;
 	cout<<value<<"出现的次数为："<<count(vec.begin(),vec.end(),value)<<endl;
-	return 0;
-
+	return 0;a
 }
