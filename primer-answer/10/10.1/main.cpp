@@ -1,15 +1,16 @@
-#include <iostream>
-#include <algorithm> 
-#include <vector>
-
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+#include<iostream>
+#include<string>
+#include<vector>
+#include<algorithm>
 
 using namespace std;
-
-int main(int argc, char** argv) {
-	int x = 524; 
-	vector<int> v1 = {521,522,523,524,525};
-	auto result = find(v1.begin(),v1.end(),x);	
-	cout
+ 
+int main(int argc, char**argv)
+{
+	int a[10] = {0,1,2,5,4,5,4,5,4,5};
+	vector<int> vec(a,a+10);
+	int value = 5;
+	cout<<value<<"出现的次数为："<<count(vec.begin(),vec.end(),value)<<endl;
 	return 0;
+
 }
