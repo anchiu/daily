@@ -8,8 +8,11 @@ using namespace std;
 
 int main()
 {
+	int v1, v2;
+	cout << "请输入两个整数，一个为复数的实部，一个为虚部，中间用空格隔开" << endl;
+	cin >> v1 >> v2;
 	complex a;
-	a.set(1,2);
+	a.set(v1,v2);
 	a.show();
-
+	return 0;
 }

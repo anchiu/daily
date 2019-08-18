@@ -25,7 +25,7 @@ public:
 	}
 	void show()
 	{
-		cout << "复数是： " << getX() << "," << getY() << endl;
+		cout << "复数是：" << getX() << "+" << getY()<< "i"<< endl;
 	}
 private:
 	double x;
