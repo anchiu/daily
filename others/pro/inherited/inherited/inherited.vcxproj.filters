@@ -23,5 +23,8 @@
     <ClInclude Include="head\complex.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="complex_derived.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

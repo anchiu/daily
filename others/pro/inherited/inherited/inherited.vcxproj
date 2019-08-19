@@ -154,6 +154,7 @@
     <ClCompile Include="inherited.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="complex_derived.h" />
     <ClInclude Include="head\complex.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

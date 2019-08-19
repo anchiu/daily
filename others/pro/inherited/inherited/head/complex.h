@@ -23,7 +23,7 @@ public:
 		x = a;
 		y = b;
 	}
-	void show()
+	virtual void show()
 	{
 		cout << "¸´ÊýÊÇ£º" << getX() << "+" << getY()<< "i"<< endl;
 	}
