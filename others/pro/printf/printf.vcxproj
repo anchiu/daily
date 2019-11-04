@@ -154,6 +154,9 @@
   <ItemGroup>
     <ClCompile Include="printf.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mycomplex.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

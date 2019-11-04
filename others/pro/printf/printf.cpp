@@ -1,19 +1,21 @@
 ﻿#include <iostream>
 #include <vector>
 #include <string>
+#include "mycomplex.h"
 using namespace std;
-using  std::string;
-int s, m, num;
-char z = '2';
-int n = 0;
-char zuihouyiwei;
-vector<char> v1;
-vector<char> quanzhong = { 7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2 };
-vector<char> m_s = { 1,0,'X',9,8,7,6,5,4,3,2 };
-vector<char> res_mark;
-vector<vector<char>> res;
+
 int main() {
-	int b = z - '0';
-	cout << b;
+	string s1;
+	shared_ptr<string> p1;
+	
+	auto p = make_shared<int>(42);
+	if (!p1) 
+		cout << "空指针"<< endl;
+
+	mycomplex a;
+	mycomplex b(1, 2);
+	b.show();
+	mycomplex c(1, 2, 4);
+	c.show();
 	
 }
